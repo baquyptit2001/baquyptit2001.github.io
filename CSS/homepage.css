@@ -19,13 +19,8 @@ ul li{
 
 /* header 1 */
 
-.header{
-    line-height: 40px;
+.top-header{
     background: #5a4a3b;
-}
-
-.pad0{
-    padding: 0 !important;
 }
 
 .header1 a{
@@ -41,55 +36,20 @@ ul li{
 }
 
 .phone-contact{
-    font-size: 12px;
+    font-size: 70%;
 }
 
 .fab{
-    font-size: 12px;
+    font-size: 80%;
+    color: #9b9997;
 }
 
-.lang{
-    font-size: 12px;
-    color:  #9b9997;
-    font-family: Montserrat;
+.fab:hover{
+    color: #9bc960;
 }
 
-.lang{
-    width: 14px;
-    height: 9px;
-}
-
-.account{
-    height: 100%;
-}
-
-.currentcy{
-    font-size: 12px;
-    color:  #9b9997;
-    font-family: Montserrat;
-}
-
-.my-account{
-    font-size: 12px;
-    color:  #9b9997;
-    font-family: Montserrat;
-    background: #88c442;
-}
-
-/* HEADER LOGO */
-
-.header-logo{
-    line-height: 208px !important;
-}
-
-.scf{
-    width: 100%;
-    margin-top: -40px;
-}
-
-.lg{
-    width: 100%;
-    margin-top: -180px;
+#hide-nav a{
+    color: #9b9997;
 }
 
 .menu a{
@@ -99,27 +59,44 @@ ul li{
 }
 
 .menu ul{
-    display: flex;
-    justify-content: space-between;
     width: 100%;
-    line-height: 20px;
 }
 
 .menu{
     width: 100%;
-    margin-top: -16px;
     padding-bottom: 10px;
+}
+
+.menu nav{
+    width: 100%;
+}
+
+.scf{
+    width: 100%;
+}
+
+.lg{
+    width: 100%;
+    margin-top: -180px;
+}
+
+.logo{
+    padding: 40px 0 80px 0;
+}
+
+.side-logo{
+    padding: 20px 0 80px 0;
 }
 
 /* main? */
 
 .slogan{
-    height: 673px;
     background: #827161;
 }
 
 .slg{
     height: 100%;
+    padding: 75px 0;
 }
 
 .previous{
@@ -179,16 +156,27 @@ ul li{
     font-size: 24px;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    padding: 30px;
+    border: 2px solid ;
+}
+
+.carousel-item{
+    background-image: url(/ảnh/homepage/header/bg-img.jpg);
+    background-size: cover;
+    padding: 50px 0;
+}
+
 /* FEATURE */
 
 .feature{
-    height: 408px;
+    padding-bottom: 20px;
 }
 
 .feature .color{
     height: 283px;
     background: #88c442;
-    margin-top: -80px;
+    margin-top: -20px;
 }
 
 .fresh{
@@ -213,13 +201,6 @@ ul li{
     background: #f8f3ee;
 }
 
-.product{
-    height: 880px;
-}
-
-.new-arr{
-    height: 376px;
-}
 
 .new-arr img{
     height: 53px;
@@ -230,9 +211,17 @@ ul li{
     height: 13px;
 }
 
+.new-arr .row{
+    padding: 20px 0 25px;
+}
+
 .new-arr-text{
     font-size: 76px;
     font-family: Frente H1;
+}
+
+.dotd{
+    font-size: 60px;
 }
 
 .new-arr-text p{
@@ -249,8 +238,8 @@ ul li{
 }
 
 .buy {
-    height: 504px;
     width: 100%;
+    padding-bottom: 20px;
 }
 
 .buy-color{
@@ -260,7 +249,6 @@ ul li{
 
 .buy-info{
     background: white;
-    height: 215px;
 }
 
 .buy-info .name{
@@ -278,6 +266,10 @@ ul li{
     font-size: 14px;
     color: red;
     text-decoration: line-through;
+}
+
+.buy-info a img{
+    width: 100%;
 }
 
 .buy-btn{
@@ -314,14 +306,6 @@ ul li{
     color: #5a4a3b;
 }
 
-.big-deal{
-    height: 675px;
-}
-
-.big-deal-info-1{
-    height: 170px;
-}
-
 .big-deal-info-1 .color{
     height: 100px;
     background: #88c442;
@@ -331,15 +315,15 @@ ul li{
     margin-bottom: 0px;
 }
 
-.buy-btn{
-    margin-top: 20px;
+.big-deal{
+    padding-bottom: 50px;
 }
 
 .big-deal-info-2{
     padding-top: 30px;
 }
 
-.center-deal img{
+.center-deal>img{
     width: 100%;
 }
 
@@ -347,10 +331,7 @@ ul li{
     width: 100px;
     height: 100px;
     background: #88c442;
-    text-align: center;
-    margin: 0 120px;
-    position: absolute;
-    top: 20%;
+    margin: 0;
 }
 
 .rate{
@@ -358,27 +339,20 @@ ul li{
     margin: 0 !important;
 }
 
-.buy-center{
-    width: 131px !important;
+.center-col{
+    height: 150px;
 }
 
-.center-info{
-    position: absolute;
-    top: 55%;
-    left: 10%;
+.center-prod{
+    margin-top: -80%;
+}
+
+.center-img{
+    width: 100%;
 }
 
 .buybtn-center{
-    width: 131px !important;
-    height: 41px;
-    position: relative;
-    top: 25%;
-    left: -5%;
-}
-
-.center-price{
-    font-family: Montserrat;
-
+    width: 40%;
 }
 
 .center-name{
@@ -387,25 +361,15 @@ ul li{
     font-size: 16px;
     font-family: Montserrat;
     font-weight: bold;
-}
-
-.rate{
-    position: absolute;
-    left: 33%;
-    top: 30%;
+    margin-bottom: 0;
 }
 
 .center-price{
-    position: absolute;
-    left: 30%;
-    top: 40%;
     font-size: 30px;
     font-family: Montserrat;
+    margin-bottom: 0;
 }
 
-.center-col{
-    height: 155px;
-}
 .center-price span{
     font-size: 14px;
     color: red;
@@ -414,11 +378,6 @@ ul li{
 
 
 /* FREE SHIPPING */
-
-.free-shipping [class*='col']{
-    
-    height: 414px;
-}
 
 .fre-fru{
     background: #827161;
@@ -456,14 +415,10 @@ ul li{
 .free-ship{
     height: 100%;
     background: #827161;
-    padding-top: 80%;
+    padding-top: 60%;
 }
 
 /* NEWS */
-
-.news-detail .row{
-    height: 415px;
-}
 
 .news-name{
     font-size: 40px;
@@ -479,9 +434,9 @@ ul li{
 
 .brown{
     background: #5a4a3b;
-    height: 415px;
     padding-top: 75%;
     padding-left: 5%;
+    height: 100%;
 }
 
 .brown:hover {
@@ -493,18 +448,6 @@ ul li{
 }
 
 /* deli-pro */
-
-.deli-pro .row{
-    height: 390px;
-}
-
-.deli-thumb{
-    height: 160px !important;
-}
-
-.deli-info{
-    height: 230px !important;
-}
 
 .step{
     font-family: Frente H1;
@@ -521,24 +464,24 @@ ul li{
     text-align: center;
 }
 
-.deli-pro .col-md-1{
-    padding-top: 6%;
-}
-
 .deli-thumb :hover{
     transform: translatey(-20px) rotateY(360deg);
     transition: 1s;
 }
 
+.process-arr{
+    padding-top: 5%;
+}
+
 /* SIGN */
 
 .sign-wrap{
-    height: 415px;
     background: #5a4a3b;
 }
 
 .sign-info {
     height: 100%;
+    padding: 40px;
 }
 
 .sign-info .row{
@@ -577,7 +520,7 @@ ul li{
 }
 
 .sign-btn input{
-    width: 700px;
+    width: 70%;
     height: 50px;
     border-radius: 50px 0 0 50px;
     border: 0;
@@ -586,7 +529,7 @@ ul li{
 
 .sign-btn button{
     color: #fff;
-    width: 175px;
+    width: 28%;
     height: 50px;
     font-family: Montserrat;
     font-size: 16px;
@@ -595,14 +538,10 @@ ul li{
     background: #5b9a2e;
     border-radius: 0px 50px 50px 0px;
     border: 0;
-    padding-left: 0px;
+    padding-left: -1px;
     position: relative;
-    left: -0.35%;
-    top: -1px;
-}
-
-.sponsor{
-    height: 325px;
+    left: -1.5%;
+    top: -1.7px;
 }
 
 .logo{
@@ -619,18 +558,22 @@ ul li{
     line-height: 100% !important;
 }
 
+.sponsor img{
+    width: 100%;
+}
+
 /* FOOTER */
 
 footer{
+    padding-top: 50px;
     background: #5a4a3b;
-    height: 610px;
 }
 
 .service{
     position: relative;
-    top: -7%;
+    top: 30px;
     background: #add253;
-    height: 100px;
+    padding: 20px 20px 0;
 }
 
 .service-name{
@@ -650,6 +593,10 @@ footer{
 
 .service .row{
     height: 100%;
+}
+
+.item-services{
+    margin-bottom: 20px;
 }
 
 .logo-contact{
@@ -679,31 +626,27 @@ footer{
     font-weight: bold;
 }
 
-ul li{
+.footer-tab ul li{
     list-style: none;
     padding: 0;
     margin: 0;
     margin: 17px 0;
 }
 
-ul{
+.footer-tab ul{
     padding: 0;
     margin: 0;
 }
 
-ul li a{
+.footer-tab ul li a{
     text-decoration: none;
     font-family: Montserrat;
     font-size: 15px;
     color: #d6d0be;
 }
 
-.ins-color{
-    width: 40px;
-    height: 55px;
-    background: #add253;
-    border: 5px solid #fff;
-    margin: 0 !important;
+.ins-item img{
+    width: 100%;
 }
 
 .ins-item{
@@ -718,6 +661,10 @@ ul li a{
 
 .cpy-right span{
     color: #add253;
+}
+
+.pay-med img{
+    width: 20%;
 }
 
 .footer-contact-icon a{
@@ -737,4 +684,538 @@ ul li a{
 
 .footer-contact-icon div:hover a{
     color: #fff;
+}
+
+@media (max-width: 1200px) {
+    .buy-info .price{
+        font-size: 24px;
+    }
+    .buy-info .price span{
+        font-size: 12px;
+    }
+    .center-price{
+        font-size: 25px;
+        font-family: Montserrat;
+        margin-bottom: 0;
+    }
+    .center-price span{
+        font-size: 14px;
+        color: red;
+        text-decoration: line-through;
+    }
+    .center-name{
+        font-size: 14px;
+    }
+    .buybtn-center{
+        width: 40%;
+    }
+    .center-deal .center-color{
+        width: 90px;
+        height: 90px;
+    }
+    .deli-pa{
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 992px) {
+    .top-header{
+        font-size: 12px;
+    }
+    .logo,.side-logo{
+        padding: 0;
+    }
+    .menu a{
+        font-size: 12px;
+    }
+    .type-in{
+        font-size: 8px;
+    }
+    .type-name{
+        font-size: 10px;
+    }
+    .service-name{
+        font-size: 20px;
+    }
+    .service-info{
+        font-size: 12px;
+    }
+    .ins-item img{
+        width: 100%;
+    }
+    .ins-item{
+        margin: 18px 0;
+    }
+    .footer-tab h1{
+        font-size: 16px;
+    }
+    .footer-tab ul li a{
+        font-size: 13px;
+    }
+    .stln{
+        font-size: 27px;
+    }
+    .ndln{
+        font-size: 130px;
+    }
+    .rdln{
+        font-size: 20px;
+    }
+    .feature .color{
+        height: 220px;
+        margin-top: -16px;
+    }
+    .fresh{
+        font-size: 50px;
+    }
+    .view{
+        font-size: 10px;
+    }
+    .new-arr-text{
+        font-size: 50px;
+    }
+    .buy-color{
+        height: 170px;
+    }
+    
+    .buy-info .name{
+        font-size: 14px;
+    }
+    
+    .buy-info .price{
+        font-size: 26px;
+    }
+    
+    .buy-info .price span{
+        font-size: 12px;
+    }
+    .dotd{
+        font-size: 40px;
+    }
+    .cemter{
+        text-align: center;
+    }
+    .center-name{
+        font-size: 10px;
+    }
+    .center-price{
+        font-size: 18px;
+        font-family: Montserrat;
+        margin-bottom: 0;
+    }
+    .center-price span{
+        font-size: 12px;
+        color: red;
+        text-decoration: line-through;
+    }
+    .buybtn-center{
+        width: 40%;
+    }
+    .center-deal .center-color{
+        width: 70px;
+        height: 70px;
+    }
+    .rate{
+        width: 60px !important;
+    }
+    .fre-fru{
+        padding-top: 10%;
+    }
+    .fre-fru p{
+        font-family: Frente H1;
+        font-size: 125px;
+        color: #6fbb5b;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .shipping{
+        font-size: 35px;
+    }
+    
+    .fee{
+        font-size: 15px;
+    }
+    
+    .free-ship{
+        height: 100%;
+        background: #827161;
+        padding-top: 60%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .free-ship img{
+        width: 90%;
+    }
+    .news-name{
+        font-size: 30px;
+    }
+    .news-date{
+        font-size: 12px;
+    }
+    .brown{
+        padding-top: 65%;
+        padding-left: 5%;
+    }
+    .deli-pa{
+        font-size: 45px;
+    }
+    .deli-thumb img{
+        width: 90%;
+    }
+    .step{
+        font-family: Frente H1;
+        font-size: 42px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .step-detail{
+        font-size: 12px;
+    }
+    
+    .process-arr{
+        padding-top: 5%;
+    }
+    .to{
+        font-size: 75px;
+    }
+    .be{
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 768px){
+    .top-header{
+        font-size: 10px;
+    }
+    .menu a{
+        font-size: 10px;
+    }
+    .service-name{
+        font-size: 18px;
+    }
+    .service-info{
+        font-size: 10px;
+    }
+    .ins-item img{
+        width: 60%;
+    }
+    .ins-item{
+        margin: 15px 0;
+    }
+    .footer-tab h1{
+        font-size: 14px;
+    }
+    .footer-tab ul li a{
+        font-size: 12px;
+    }
+    .cpy-right{
+        text-align: center;
+    }
+    .stln{
+        font-size: 27px;
+    }
+    .ndln{
+        font-size: 110px;
+    }
+    .rdln{
+        font-size: 24px;
+    }
+    .feature .color{
+        height: 170px;
+        margin-top: -15px;
+    }
+    .fresh{
+        font-size: 30px;
+    }
+    .view{
+        font-size: 8px;
+    }
+    .new-arr-text{
+        font-size: 40px;
+    }
+    .buy-color{
+        height: 130px;
+    }
+    
+    .buy-info .name{
+        font-size: 10px;
+    }
+    
+    .buy-info .price{
+        font-size: 14px;
+    }
+    
+    .buy-info .price span{
+        font-size: 8px;
+    }
+    .buy-tag{
+        width: 40%;
+    }
+    .dotd{
+        font-size: 30px;
+    }
+    .cemter{
+        text-align: center;
+    }
+    .center-name{
+        font-size: 8px;
+        margin-bottom: -10px;
+    }
+    .center-price{
+        font-size: 12px;
+        font-family: Montserrat;
+        margin-bottom: -7px ;
+    }
+    .center-price span{
+        font-size: 10px;
+        color: red;
+        text-decoration: line-through;
+    }
+    .buybtn-center{
+        width: 40%;
+    }
+    .center-deal .center-color{
+        width: 40px;
+        height: 40px;
+    }
+    .rate{
+        width: 40px !important;
+    }
+    .fre-fru{
+        padding-top: 10%;
+    }
+    .fre-fru p{
+        font-size: 100px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .shipping{
+        font-size: 30px;
+    }
+    
+    .fee{
+        font-size: 12px;
+    } 
+    .free-ship{
+        height: 100%;
+        background: #827161;
+        padding-top: 60%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .free-ship img{
+        width: 100%;
+    }
+    .news-name{
+        font-size: 30px;
+    }
+    .news-date{
+        font-size: 12px;
+    }
+    .brown{
+        padding-top: 65%;
+        padding-left: 5%;
+    }
+    .news-detail .col-6{
+        margin-bottom: 20px !important;
+    }
+    .deli-thumb img{
+        width: 90%;
+    }
+    .step{
+        font-size: 35px;
+    }
+    
+    .step-detail{
+        font-size: 10px;
+    }
+    
+    .process-arr{
+        padding-top: 5%;
+    }
+    .process-arr img{
+        width: 200%;
+    }
+    .to{
+        font-size: 70px;
+    }
+    .be{
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 576px){
+    .top-header{
+        font-size: 7px;
+    }
+    .menu a{
+        font-size: 7px;
+    }
+    .service-name{
+        font-size: 15px;
+    }
+    .service-info{
+        font-size: 10px;
+    }
+    .ins-item img{
+        width: 60%;
+    }
+    
+    .ins-item{
+        margin: 13px 0;
+    }
+    .footer-tab h1{
+        font-size: 12px;
+    }
+    .footer-tab ul li a{
+        font-size: 10px;
+    }
+    .cpy-right{
+        text-align: center;
+    }
+    .stln{
+        font-size: 20px;
+    }
+    .ndln{
+        font-size: 85px;
+    }
+    .rdln{
+        font-size: 16px;
+    }
+    .feature .color{
+        height: 150px;
+        margin-top: -15px;
+    }
+    .fresh{
+        font-size: 20px;
+    }
+    .view{
+        font-size: 6px;
+    }
+    .new-arr-text{
+        font-size: 30px;
+    }
+    .buy-color{
+        height: 100px;
+    }
+    
+    .buy-info .name{
+        font-size: 8px;
+    }
+    
+    .buy-info .price{
+        font-size: 12px;
+    }
+    
+    .buy-info .price span{
+        font-size: 8px;
+    }
+    .dotd{
+        font-size: 20px;
+    }
+    .cemter{
+        text-align: center;
+    }
+    .center-name{
+        font-size: 6px;
+        margin-bottom: -10px;
+    }
+    .center-price{
+        font-size: 10px;
+        font-family: Montserrat;
+        margin-bottom: -7px ;
+    }
+    .center-price span{
+        font-size: 8px;
+        color: red;
+        text-decoration: line-through;
+    }
+    .buybtn-center{
+        width: 35%;
+    }
+    .center-deal .center-color{
+        width: 40px;
+        height: 40px;
+    }
+    .rate{
+        width: 40px !important;
+        margin-bottom: -10px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .buy-info .name{
+        font-size: 6px;
+    }
+    .buy-info .price{
+        font-size: 9px;
+    }
+    .buy-info .price span{
+        font-size: 6px;
+    }
+    .buy-tag{
+        width: 40%;
+    }
+    .fre-fru{
+        padding-top: 30%;
+    }
+    .fre-fru p{
+        font-size: 80px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .shipping{
+        font-size: 26px;
+    }
+    
+    .fee{
+        font-size: 8px;
+    } 
+    .free-ship{
+        height: 100%;
+        background: #827161;
+        padding-top: 80% !important;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .free-ship img{
+        width: 100%;
+    }
+    .news-name{
+        font-size: 25px;
+    }
+    .news-date{
+        font-size: 10px;
+    }
+    .brown{
+        padding-top: 65%;
+        padding-left: 5%;
+    }
+    .deli-thumb img{
+        width: 90%;
+    }
+    .step{
+        font-size: 27px;
+    }
+    
+    .step-detail{
+        font-size: 8px;
+    }
+    
+    .process-arr{
+        padding-top: 5%;
+    }
+    .process-arr img{
+        width: 200%;
+    }
+    .to{
+        font-size: 60px !important;
+    }
+    .be{
+        font-size: 12px !important;
+    }
 }
