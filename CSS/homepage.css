@@ -1130,6 +1130,9 @@ footer{
     .buy-info .price span{
         font-size: 8px;
     }
+    .big-deal-info-1 .color{
+        height: 70px;
+    }
     .dotd{
         font-size: 20px;
     }
@@ -1264,9 +1267,24 @@ footer{
     .feature .card-body{
         padding: 5px;
     }
+    .feature .color{
+        height: 100px;
+    }
 }
 
 @media (max-width: 460px){
+    .feature .color{
+        height: 70px;
+    }
+    .new-arr-text{
+        font-size: 25px;
+    }
+    .name{
+        margin-bottom: 0;
+    }
+    .price{
+        margin-bottom: 0;
+    }
     .center-name{
         font-size: 5px;
         margin-bottom: -10px;
@@ -1292,6 +1310,30 @@ footer{
         width: 30px !important;
         margin-bottom: -10px !important;
     }
+    .fre-fru p{
+        font-size: 60px;
+        width: 100%;
+        text-align: center;
+    }
+    .fre-fru img{
+        width: 80%;
+    }
+    .shipping{
+        font-size: 15px !important;
+    }
+    
+    .fee{
+        font-size: 4px;
+    } 
+    .free-ship{
+        height: 100%;
+        background: #827161;
+        padding-top: 100px !important;
+        padding-left: 5px !important;
+    }
+    .free-ship img{
+        width: 30px;
+    }
     .step{
         font-size: 24px;
     }
@@ -1313,10 +1355,15 @@ footer{
 }
 
 @media (max-width: 400px) {
+    .feature .color{
+        height: 50px;
+    }
     .buy-color{
         height: 40px;
     }
-
+    .dotd{
+        font-size: 18px !important;
+    }
     .buy .card-body{
         padding: 0px;
     }
@@ -1348,7 +1395,9 @@ footer{
     .rdln{
         font-size: 14px;
     }
-
+    .new-arr-text{
+        font-size: 20px;
+    }
     .center-name{
         font-size: 4.5px;
         margin-bottom: -10px;
@@ -1375,7 +1424,7 @@ footer{
         margin-bottom: -10px !important;
     }
     .step{
-        font-size: 18px;
+        font-size: 14px;
     }
     .step-detail{
         font-size: 5px;
@@ -1388,9 +1437,9 @@ footer{
         width: 20px;
     }
     .to{
-        font-size: 60px;
+        font-size: 40px !important;
     }
     .be{
-        font-size: 10px !important;
+        font-size: 8px !important;
     }
 }
