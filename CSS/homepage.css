@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
 body{
     margin: 0;
     padding: 0;
@@ -686,6 +687,12 @@ footer{
 }
 
 @media (max-width: 1200px) {
+    .fresh{
+        font-size: 50px;
+    }
+    .view{
+        font-size: 12px;
+    }
     .buy-info .price{
         font-size: 24px;
     }
@@ -926,16 +933,25 @@ footer{
         margin-top: -15px;
     }
     .fresh{
-        font-size: 30px;
+        font-size: 45px;
     }
     .view{
-        font-size: 8px;
+        font-size: 10px;
     }
     .new-arr-text{
         font-size: 40px;
     }
+
     .buy-color{
-        height: 130px;
+        height: 100px;
+    }
+
+    .buy .card-body{
+        padding: 5px;
+    }
+
+    .feature .card-body{
+        padding: 5px;
     }
     
     .buy-info .name{
@@ -1108,7 +1124,9 @@ footer{
     .buy-info .price{
         font-size: 12px;
     }
-    
+    .buy-btn{
+        width: 40%; 
+    }
     .buy-info .price span{
         font-size: 8px;
     }
@@ -1143,9 +1161,28 @@ footer{
         width: 40px !important;
         margin-bottom: -10px !important;
     }
+    .deli-pa{
+        font-size: 45px;
+    }
+    .deli-thumb img{
+        width: 90%;
+    }
+    .step{
+        font-size: 31.5px;
+    }
+    
+    .step-detail{
+        font-size: 9px;
+    }
 }
 
 @media (max-width: 500px) {
+    .fresh{
+        font-size: 13px;
+    }
+    .view{
+        font-size: 4px;
+    }
     .buy-info .name{
         font-size: 6px;
     }
@@ -1216,5 +1253,144 @@ footer{
     }
     .be{
         font-size: 12px !important;
+    }
+    .buy-color{
+        height: 80px;
+    }
+
+    .buy .card-body{
+        padding: 5px;
+    }
+    .feature .card-body{
+        padding: 5px;
+    }
+}
+
+@media (max-width: 460px){
+    .center-name{
+        font-size: 5px;
+        margin-bottom: -10px;
+    }
+    .center-price{
+        font-size: 9px;
+        font-family: Montserrat;
+        margin-bottom: -7px ;
+    }
+    .center-price span{
+        font-size: 7px;
+        color: red;
+        text-decoration: line-through;
+    }
+    .buybtn-center{
+        width: 35%;
+    }
+    .center-deal .center-color{
+        width: 40px;
+        height: 40px;
+    }
+    .rate{
+        width: 30px !important;
+        margin-bottom: -10px !important;
+    }
+    .step{
+        font-size: 24px;
+    }
+    .step-detail{
+        font-size: 7px;
+    }
+    .process-arr{
+        padding-top: 5%;
+    }
+    .process-arr img{
+        width: 400%;
+    }
+    .to{
+        font-size: 70px;
+    }
+    .be{
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .buy-color{
+        height: 40px;
+    }
+
+    .buy .card-body{
+        padding: 0px;
+    }
+    .feature .card-body{
+        padding: 0px;
+    }
+    .price{
+        font-size: 5px !important;
+        margin-bottom: 0px !important;
+    }
+    .price span{
+        font-size: 4px;
+    }
+    .buy-info .name{
+        font-size: 4px;
+    }
+    .fresh{
+        font-size: 8px;
+    }
+    .view{
+        font-size: 3px;
+    }
+    .stln{
+        font-size: 18px;
+    }
+    .ndln{
+        font-size: 70px;
+    }
+    .rdln{
+        font-size: 14px;
+    }
+
+    .center-name{
+        font-size: 4.5px;
+        margin-bottom: -10px;
+    }
+    .center-price{
+        font-size: 6px;
+        font-family: Montserrat;
+        margin-bottom: -7px ;
+    }
+    .center-price span{
+        font-size: 5px;
+        color: red;
+        text-decoration: line-through;
+    }
+    .buybtn-center{
+        width: 35%;
+    }
+    .center-deal .center-color{
+        width: 30px;
+        height: 30px;
+    }
+    .rate{
+        width: 27px !important;
+        margin-bottom: -10px !important;
+    }
+    .step{
+        font-size: 18px;
+    }
+    .step-detail{
+        font-size: 5px;
+    }
+    .process-arr{
+        padding-top: 5%;
+        margin-left: -5px !important;
+    }
+    .process-arr img{
+        width: 20px;
+    }
+    .to{
+        font-size: 60px;
+    }
+    .be{
+        font-size: 10px !important;
     }
 }
